@@ -1,1 +1,61 @@
-<mxfile host="app.diagrams.net" modified="2020-07-20T20:31:35.783Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="7t3slIO-1Kjn7C6q__YM" version="13.4.9" type="github"><diagram id="S5wTtM0196LBxeVamvB5" name="Page-1">dZHBEoIgEIafhrtCU3o2q0snD50Z2YQZdB2k0Xr6dICMsU4s3/4/y+4SVrTT2fBeXlGAJjQRE2FHQmmasGw+FvJ0ZJfnDjRGCS9aQaVeEJyePpSAIRJaRG1VH8Mauw5qGzFuDI6x7I46rtrzBjagqrne0psSVjqa0cPKL6AaGSqne99fy4PYdzJILnD8QqwkrDCI1kXtVIBehhfm4nynP9nPxwx09odhDta350u0IVa+AQ==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-07-20T20:32:21.681Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="1-OgZH6NrUwuc5tnWZtw" version="13.4.9" type="github">
+  <diagram id="S5wTtM0196LBxeVamvB5" name="Page-1">
+    <mxGraphModel dx="1038" dy="499" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IIsaQLFboUEu6_USJg-m-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IIsaQLFboUEu6_USJg-m-3" target="IIsaQLFboUEu6_USJg-m-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IIsaQLFboUEu6_USJg-m-3" value="Решение краевой задачи: поиск пары t1 и deltaV1 для попадающей траектории" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="120" y="140" width="280" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="IIsaQLFboUEu6_USJg-m-4" value="Вариант 1&lt;br&gt;&lt;br&gt;Задать t1 и определить для него deltaV1 такой, чтобы траектория попадала в Марс (или по касательной к Марсу)" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="130" y="220" width="120" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="IIsaQLFboUEu6_USJg-m-5" value="Вариант 2&lt;br&gt;&lt;br&gt;Для очередного t1 с помощью численных функций решения нелинейных уравнений или функций оптимизации поиск deltaV1 такой, чтобы траектория попадала в Марс (или по касательной к Марсу)" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="274" y="220" width="120" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="IIsaQLFboUEu6_USJg-m-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IIsaQLFboUEu6_USJg-m-7" target="IIsaQLFboUEu6_USJg-m-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IIsaQLFboUEu6_USJg-m-7" value="Определение deltaV2 для перехода на орбиту Марса" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="120" y="580" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IIsaQLFboUEu6_USJg-m-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IIsaQLFboUEu6_USJg-m-9" target="IIsaQLFboUEu6_USJg-m-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IIsaQLFboUEu6_USJg-m-9" value="Определение затрат топлива по deltaV1 и deltaV2" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="120" y="660" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IIsaQLFboUEu6_USJg-m-10" value="&lt;span&gt;На выходе - t1&lt;/span&gt;&lt;sub&gt;i&lt;/sub&gt;&lt;span&gt;&amp;nbsp;и deltaV1&lt;/span&gt;&lt;sub&gt;i&lt;/sub&gt;&lt;span&gt;&amp;nbsp;для попадающей траектории&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="520" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IIsaQLFboUEu6_USJg-m-11" value="На выходе - deltaM" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="296" y="710" width="76" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IIsaQLFboUEu6_USJg-m-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IIsaQLFboUEu6_USJg-m-13" target="IIsaQLFboUEu6_USJg-m-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="10" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="30" y="770" />
+              <mxPoint x="30" y="120" />
+              <mxPoint x="260" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IIsaQLFboUEu6_USJg-m-13" value="Функция минимизации, которая по deltaM варьирует deltaV1 и t1" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="120" y="740" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IIsaQLFboUEu6_USJg-m-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IIsaQLFboUEu6_USJg-m-15" target="IIsaQLFboUEu6_USJg-m-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IIsaQLFboUEu6_USJg-m-15" value="Начальное пристрелочное значение t1&lt;sub&gt;0&lt;/sub&gt; (или попадающая пара deltaV1&lt;sub&gt;0&lt;/sub&gt;&amp;nbsp;и t1&lt;sub&gt;0&lt;/sub&gt;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="120" y="40" width="280" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
